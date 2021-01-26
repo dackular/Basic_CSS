@@ -1,7 +1,14 @@
 /* ทดสอบ comment */
-p#message{
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Sriracha&display=swap');
+
+*{
+    font-family: 'Itim', cursive;
+    font-size: 20px;
+    font-weight: bold;
+}
+/* p#message{
     color: yellow;
 }
 h1.title{
     color: pink;
-}
+} */
