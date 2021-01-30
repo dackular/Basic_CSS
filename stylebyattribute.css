@@ -1,0 +1,23 @@
+a{
+    background-color: orange;
+}[target]{
+    background-color: red;
+    color: white;
+}
+a[target='_blank']{
+    background-color: black;
+    color: pink;
+}
+a[target='_self']{
+    color: purple;
+}
+/* Advanced Attribute */
+input[type="email"],input[type="text"]{
+    width: 80%;
+    margin-bottom: 5px;
+}
+input[type="submit"]{
+    color: white;
+    background-color: red;
+    border-radius: 8px;
+}
