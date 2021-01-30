@@ -1,0 +1,25 @@
+body{
+    background: #333333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.box{
+    background: green;
+    width: 100px;
+    height: 100px;
+    /* transition-property: background-color;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 3s; */
+    /* transition: background 2s ease-in 3s; */
+    /* transition: background 3s, width 3s , border-radius 3s ease-in 0.5s; */
+    transition: all 3s ease-in 0.5s;
+}
+.box:hover{
+    background-color: red;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
