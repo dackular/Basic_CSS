@@ -11,6 +11,9 @@ body{
     animation-direction: alternate;
     animation-timing-function: ease-in;
 }
+a{
+    color: white;
+}
 @keyframes animate1{
     from{
         width: 0.1px;
